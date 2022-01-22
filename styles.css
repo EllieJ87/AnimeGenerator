@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Courgette&family=Gruppo&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Allan', Tahoma, cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/anime-bg.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+#anime-img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.card {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 15px;
+}
+
+.card-header {
+    color: #662E9B;
+    border-bottom: none;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+}
+
+.card-title {
+    padding: 10px 5px 15px 5px;
+    margin: 0;
+    color: #662E9B;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.title-row{
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.top-text {
+    text-transform: uppercase;
+    color: #EA3546;
+    font-style: italic;
+}
+
+.year {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#new-anime {
+    background-color: #662E9B;
+    color: white;
+    display: block;
+    width: 100%;
+    border-radius: 5px;    
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#new-anime:hover {
+    background-color: #EA3546;
+    box-shadow: 2px 2px 5px #F9C80E;
+    color: white;
+    text-shadow: 1px 1px 1px #F9C80E;
+}
+
+@media (max-width: 768px) {
+    #anime-img {
+        width: 70%;
+        height: 70%;
+    }
+}
