@@ -100,7 +100,7 @@ The wireframes were created using [Adobe XD](https://www.adobe.com/uk/products/x
 
 Desktop & Laptop | Tablet & Mobile
 ------------------------ | ---------------------
-[Home](https://github.com/EllieJ87/MindfulnessMeditation/blob/master/images/home-desktop.png) | [Home](https://github.com/EllieJ87/MindfulnessMeditation/blob/master/images/home-mobile.png)
+[Home](https://github.com/EllieJ87/AnimeGenerator/blob/master/images/home-desktop.png) | [Home](https://github.com/EllieJ87/AnimeGenerator/blob/master/images/home-mobile.png)
 
 There are some differences between my wireframes and my final website. 
 
@@ -307,5 +307,7 @@ To run my code locally, users can download a local copy of my code to their desk
 This website was a quick and fun site for me to practice more web development skills and styling .
 
 ## <a name="acknowledgmentsthanks">Acknowledgments</a>
+
+Background image was drawn and developed by myself.
 
 _**Created by Ellie Judge**_
